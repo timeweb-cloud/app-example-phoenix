@@ -28,7 +28,7 @@ if config_env() == :prod do
   # variable instead.
   secret_key_base =
     System.get_env("SECRET_KEY_BASE") ||
-      "demo_secret_key_base_for_timeweb_cloud_apps_2025" ||
+      "demo_secret_key_base_for_timeweb_cloud_apps_phoenix_elixir_L3MBhT8cZrGq" ||
       raise """
       environment variable SECRET_KEY_BASE is missing.
       You can generate one by calling: mix phx.gen.secret
